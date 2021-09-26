@@ -65,7 +65,3 @@ G.  Write code to implement input validation and logical error checks using a di
 2. The user should not delete a product that has a part associated with it.
 3.  The application confirms the “Delete” and “Remove” actions.
 4.  The application will not crash when inappropriate user data is entered in the forms; instead, error messages should be generated.
-
-H.  Provide a folder containing Javadoc files that were generated from the IDE or via the command prompt from part B. In a comment above the main method header declaration, please specify where this folder is located.
-
-I.  Demonstrate professional communication in the content and presentation of your submission.
