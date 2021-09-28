@@ -17,11 +17,11 @@ REQUIREMENTS
         3.  Modify Part form
         4.  Add Product form
         5.  Modify Product form
-      Note: You may use one FXML file for forms with an identical UI component structure. You may also use a single window that can be switched to a different menu, or a new window can be launched for each form. As of JDK 11, JavaFX is no longer included in the JDK API but is available as an SDK or module.
+        Note: You may use one FXML file for forms with an identical UI component structure. You may also use a single window that can be switched to a different menu, or a new window can be launched for each form. As of JDK 11, JavaFX is no longer included in the JDK API but is available as an SDK or module.
       B.  Provide Javadoc comments for each class member throughout the code, and include a detailed description of the following in your comments:
         1.  A logical or runtime error that you corrected in the code and how it was corrected
         2.  A future enhancement that would extend the functionality of the application if it were to be updated
-      Note: For these comments to accurately export to the Javadoc comments, please add the logical and runtime error comments in the method header declaration comments where the error that was corrected occurred, and include the future enhancement comments in the comments of the main class. Please start these comments with “RUNTIME ERROR” or “FUTURE ENHANCEMENT” as applicable.
+        Note: For these comments to accurately export to the Javadoc comments, please add the logical and runtime error comments in the method header declaration comments where the error that was corrected occurred, and include the future enhancement comments in the comments of the main class. Please start these comments with “RUNTIME ERROR” or “FUTURE ENHANCEMENT” as applicable.
 
     II.  Application
       C.  Create classes with data and logic that map to the UML class diagram and include the supplied Part class provided in the attached “Part.java.” Do not alter the provided class. Include all the classes and members as shown in the UML diagram. Your code should demonstrate the following:
@@ -69,7 +69,7 @@ REQUIREMENTS
           g.  The Remove Associated Part button removes a selected part from the bottom table. (This dissociates or removes a part from a product.)
           h.  After saving the data, the user is automatically redirected to the Main form.
           i.  Canceling or exiting this form redirects users to the Main form.
-         Note: When a product is deleted, so can its associated parts without affecting the part inventory. The Remove Associated Part button removes a selected part from the bottom table. (This dissociates or removes a part from a product.)
+          Note: When a product is deleted, so can its associated parts without affecting the part inventory. The Remove Associated Part button removes a selected part from the bottom table. (This dissociates or removes a part from a product.)
         2.  The Modify Product form
           a.  The text fields populate with the data from the chosen product, and the bottom TableView populates with the associated parts.
           b.  The user can search for parts (top table) by ID or name (partial or full name). If the part or parts are found, the application highlights a single part or filters multiple parts. If the part is not found, the application displays an error message in the UI or a dialog box.
@@ -81,7 +81,7 @@ REQUIREMENTS
           h.  The user may remove or disassociate a part from a product.
           i.  After saving modifications to the product, the user is automatically redirected to the Main form.
           j.  Canceling or exiting this form redirects users to the Main form.
-         Note: The Remove Associated Part button removes a selected part from the bottom table. (This dissociates or removes a part from a product.)
+          Note: The Remove Associated Part button removes a selected part from the bottom table. (This dissociates or removes a part from a product.)
       G.  Write code to implement input validation and logical error checks using a dialog box or message in the UI displaying a descriptive error message for each of the following circumstances:
         1.  Min should be less than Max; and Inv should be between those two values.
         2.  The user should not delete a product that has a part associated with it.
