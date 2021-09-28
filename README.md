@@ -18,7 +18,6 @@ REQUIREMENTS
         4.  Add Product form
         5.  Modify Product form
       Note: You may use one FXML file for forms with an identical UI component structure. You may also use a single window that can be switched to a different menu, or a new window can be launched for each form. As of JDK 11, JavaFX is no longer included in the JDK API but is available as an SDK or module.
-
       B.  Provide Javadoc comments for each class member throughout the code, and include a detailed description of the following in your comments:
         1.  A logical or runtime error that you corrected in the code and how it was corrected
         2.  A future enhancement that would extend the functionality of the application if it were to be updated
@@ -46,7 +45,6 @@ REQUIREMENTS
       Note: A product’s associated parts can exist independent of current inventory of parts. You are not required to display sample data upon launching your application. You do not need to save your data to a database or a file; data for this application is nonpersistent and will reside in computer memory while in use.
       3.  Exit button
         a. The Exit button closes the application.
-
       E.  Add the listed functionalities to the following parts forms:
         1.  The Add Part form
           a.  The In-House and Outsourced radio buttons switch the bottom label to the correct value (Machine ID or Company Name).
@@ -60,7 +58,6 @@ REQUIREMENTS
         c.  The user can modify data values in the text fields sent from the Main form except the part ID.
         d.  After saving modifications to the part, the user is automatically redirected to the Main form.
         e.  Canceling or exiting this form redirects users to the Main form.
-
       F.  Add the following functionalities to the following product forms:
         1.  The Add Product form
           a.   The application auto-generates a unique product ID. The product IDs can be, but do not need to be, contiguous. The product ID text field must be disabled and cannot be edited or changed.
