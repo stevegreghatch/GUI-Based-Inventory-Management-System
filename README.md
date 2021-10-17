@@ -1,6 +1,4 @@
-# Software I
-
-WGU C482 – Performance Assessment
+# Software I  
 
 SCENARIO
 
